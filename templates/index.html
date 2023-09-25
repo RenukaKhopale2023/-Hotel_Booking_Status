@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotal Reservation </title>
+    <style>
+    
+        .first-txt{
+            position :absolute;
+            top:100px;
+            right:300px;
+        }
+        /* <style>
+        body{
+            background-image : url(https://assets.architecturaldigest.in/photos/62de7667499ca8eca01447ae/master/pass/The%20infinity%20pool%20under%20the%20shade%20of%20a%20mango%20tree.png);
+            background-size: cover;
+        }
+         */
+        
+    </style>
+    
+    <!-- https://assets.architecturaldigest.in/photos/62de7667499ca8eca01447ae/master/pass/The%20infinity%20pool%20under%20the%20shade%20of%20a%20mango%20tree.png -->
+
+
+    <style>
+        body{
+            background-image : url(https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2015/04/27/1448/Grand-Hyatt-Dubai-P353-Hotel-Exterior-Pools-Twilight.jpg/Grand-Hyatt-Dubai-P353-Hotel-Exterior-Pools-Twilight.16x9.jpg);
+            background-size: cover;
+        }
+        /* https://cdn1.goibibo.com/voy_ing/t_g/96c86820b0ec11eca8ad0a58a9feac02.jpg */
+
+    </style>
+</head>
+
+<!-- <body style="background-color: rgb(68, 197, 184);">
+    <img src="C:\Users\HP\Desktop\hotel_reservation\see1.jpg" alt="hotel" width="1400" height="250"> -->
+
+<!-- <h1><center>HOTEL HOLIDAY INN</center></h1> -->
+
+
+<center>
+
+
+    <h1><p style="color:#b50909f9;">**HOTEL HOLIDAY INN**</p></h1></center>
+
+
+
+
+
+<form method="POST" action="/predict_charges">
+
+
+
+
+    <center>
+        <h1 class="first-txt"> <label> <p style="color:rgb(247, 247, 172);">Excellent Services,Best Prices</p>
+        </h1>
+        </center>
+
+        <!-- <label>Booking_ID:</label>
+        <input type = "text" name = "Booking_ID">
+        </select>
+        <br>
+        <br> -->
+
+    <h4>
+        <label><p style="color:rgb(229, 229, 235);">No of adults:
+        
+        <input type = "text" name = "no_of_adults">
+        </select></p>
+    </label>
+        
+
+<tr>
+         <label><p style="color:rgb(229, 229, 235);">No of children:
+        
+         <input type = "text" name = "no_of_children"></tr>
+         </select> </p></label>
+         
+
+
+        <label><p style="color:rgb(229, 229, 235);">No of weekend nights:
+        <input type = "text" name = "no_of_weekend_nights">
+        </select></p></label>
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">No of week nights:
+        <input type = "text" name = "no_of_week_nights">
+        </select></p></label>
+        
+
+      
+        <label><p style="color:rgb(229, 229, 235);">Type of meal plan:
+        <select name = "type_of_meal_plan">
+            <option value = "Meal Plan 1">Meal Plan 1</option>
+            <option value = "Meal Plan 2">Meal Plan 2</option>
+            <option value = "Meal Plan 3">Meal Plan 3</option>
+            <option value = "Not Selected">Not Selected</option>
+        </select></p></label>
+        
+
+        
+        <label><p style="color:rgb(229, 229, 235);">Required car parking space:
+        <input type = "text" name = "required_car_parking_space">
+        </select></p></label>
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">Room type reserved:
+        <select name = "room_type_reserved">
+            <option value = "Room_Type 1">Room_Type 1</option>
+            <option value = "Room_Type 2">Room_Type 2</option>
+            <option value = "Room_Type 3">Room_Type 3</option>
+            <option value = "Room_Type 4">Room_Type 4</option>
+            <option value = "Room_Type 5">Room_Type 5</option>
+            <option value = "Room_Type 6">Room_Type 6</option>
+            <option value = "Room_Type 7">Room_Type 7</option>
+        </select></p></label>
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">Lead time:
+        <input type = "text" name = "lead_time">
+        </select></p></label>
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">Arrival year:
+        <input type = "text" name = "arrival_year">
+        </select></p></label>
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">Arrival month:
+        <input type = "text" name = "arrival_month">
+        </select></p></label>
+        
+
+        <label><p style="color:rgb(229, 229, 235);">Arrival date:
+        <input type = "text" name = "arrival_date">
+        </select></p></label>
+        
+
+        <label><p style="color:rgb(229, 229, 235);">Market segment type:</label>:
+        <select name = "market_segment_type">
+            <option value = "Online">Online</option>
+            <option value = "Offline">Offline</option>
+            <option value = "Corporate">Corporate</option>
+            <option value = "Complementary">Complementary</option>
+            <option value = "Aviation">Aviation</option>
+        </select></p></label>
+        
+        
+
+        <label><p style="color:rgb(229, 229, 235);">Repeated guest:
+        <input type = "text" name = "repeated_guest">
+        </select></p></label>
+
+        <!-- <label>Yes:</label> <input type = "radio" name= "repeated_guest" value = "        yes">
+        <label>No:</label> <input type = "radio" name= "repeated_guest" value = "         no"> -->
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">No of previous cancellations:
+        <input type = "text" name = "no_of_previous_cancellations">
+        </select></p></label>
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">No of previous bookings not canceled:
+        <input type = "text" name = "no_of_previous_bookings_not_canceled">
+        </select></p></label>
+        
+
+
+        <label><p style="color:rgb(229, 229, 235);">Avg price per room:
+        <input type = "text" name = "avg_price_per_room">
+        </select></p></label>
+        
+
+
+
+        <label><p style="color:rgb(229, 229, 235);">No of special requests:
+        <input type = "text" name = "no_of_special_requests">
+        </select></p></label>
+        
+</h4>
+        
+
+        <input type = "submit" value="SUBMIT">
+
+        <h2><strong><p style="color:rgb(13, 220, 23);"> Hotal Reservation <b>{{ prediction }}<b></p></strong></h2>
+        <br>
+
+    </form>
+
+
+</body>
+</html>
